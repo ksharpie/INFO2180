@@ -1,0 +1,28 @@
+body {
+	background-color: white;
+}
+p{
+	width: 400px;
+}
+
+#profile_picture{
+	height: 100px;
+	width: 100px;
+	position: relative;
+}
+
+.left_align{
+	text-align: : left;
+}
+
+.center_align{
+	text-align: : center;
+}
+
+.right_align{
+	text-align: : right;
+}
+
+.float_right{
+	float: right;
+}
