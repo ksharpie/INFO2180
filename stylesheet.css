@@ -2,13 +2,20 @@ body {
 	background-color: white;
 }
 p{
-	width: 400px;
+	
 }
 
-#profile_picture{
-	height: 100px;
-	width: 100px;
-	position: relative;
+.profile_picture{
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	right: 10px;
+	box-shadow: 10px;
+}
+
+.email_address{
+	text-decoration: underline;
+	color: blue;
 }
 
 .left_align{
