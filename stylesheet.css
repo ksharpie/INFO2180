@@ -1,16 +1,35 @@
 body {
-	background-color: white;
+	background-color: grey;
+	height: auto;
+  	width: auto;
 }
-p{
-	
+hr{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid black;
+    margin: 1em 0;
+    padding: 0; 
+
 }
 
 .profile_picture{
-	height: 400px;
-	width: 400px;
-	position: absolute;
-	right: 10px;
-	box-shadow: 10px;
+	height: 25%;
+  	width: 25%;
+  	
+  	top: 40px;
+  	right: 40px;
+  	box-shadow: 0px 10px 20px 1px;
+  	border-radius: 10px;
+  	position: absolute;
+  	float:right;
+  	clear: left;
+
+    -webkit-transform: rotate(350deg);
+    -moz-transform: rotate(350deg);
+    -ms-transform: rotate(350deg);
+    -o-transform: rotate(350deg);
+    transform: rotate(350deg);
 }
 
 .email_address{
@@ -19,17 +38,30 @@ p{
 }
 
 .left_align{
-	text-align: : left;
+	float: left;
+ 	width: 20%;
+  	clear:both;
 }
 
 .center_align{
-	text-align: : center;
+	margin: auto;
+  	width: 500px;
 }
 
 .right_align{
-	text-align: : right;
+	border-left: 2px solid black;
+ 	padding-left: 10px;
+  	float: left;
+  	width: 40%;
+  	color: black;
 }
 
-.float_right{
-	float: right;
+
+#about_me{
+  	float: left;
+  	text-align: justify;
+  	clear:both;
+  	color: black;
+  	position: relative;
+  	width: 60%;
 }
